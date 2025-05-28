@@ -14,6 +14,8 @@ Using mathematical programming, we modeled the problem as a binary integer progr
 
 The optimization considered both fixed and flexible assignment models, including partial sharing of bricks and scenarios with increased demand or office relocations.
 
+More technical details, formulations, and visualizations can be found in the [slides here](case_study_pfizer_slides.pdf).
+
 ## Implementation
 
 The optimization models were implemented in Python using the **Gurobi solver**. The code is available is [case_study_pfizer_solver.ipynb](case_study_pfizer_solver.ipynb).
